@@ -1,7 +1,7 @@
 .App {
   padding: 20px;
   background-color: #232323;
-  height: calc(100vh + 50px); 
+  height: auto; 
 }
 div {
   color: #fff;
