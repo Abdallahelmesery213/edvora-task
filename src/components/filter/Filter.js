@@ -3,12 +3,13 @@ import "./Filter.css";
 
 const Filter = (props) => {
     const {products,handleData,handleState,statesName,handleCity,citiesName} = props;
+    const setProducts = Array.from(new Set(products));
     return (
         <div className='filter container'>
             <h4>Filters</h4>
             <select className="form-select" onChange={handleData}>
                 <option value=''>Products</option>
-                {products}
+                {setProducts}
             </select>
 
             <select className="form-select" onChange={handleState}>

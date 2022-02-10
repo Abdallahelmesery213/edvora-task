@@ -1,4 +1,7 @@
 
+.products{
+    margin-bottom: 0;
+}
 .products h2{
     font-weight: bold;
     font-size: 35px;
@@ -6,6 +9,11 @@
     color: rgba(255, 255, 255, 0.87);
     font-family: 'SFPRODISPLAYBOLD';
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 992px){
+    .products h2{
+        margin-top: 20px;
+    }
 }
 .products h6{
     font-weight: 500;
