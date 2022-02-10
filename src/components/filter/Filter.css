@@ -1,0 +1,43 @@
+.filter {
+    background: #131313;
+    border-radius: 15px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+}
+.filter h4{
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A5A5A5;
+    border-bottom: 1px solid #CBCBCB;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* font-family: SFPRODISPLAYBOLD; */
+    font-style: normal;
+    font-weight: 300;
+}   
+
+.dropdown .btn{
+    margin-bottom: 15px;
+    border-radius: 4.68775px;
+    width: 100%;
+    background-color: #232323;
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    border-color: #232323;
+}
+.dropdown-menu p:hover{
+    border-bottom: 1px solid rgb(122, 114, 114);
+}
+.filter select {
+    margin-bottom: 15px;
+    border-radius: 4.68775px;
+    width: 100%;
+    background-color: #232323;
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    border-color: #232323;
+}

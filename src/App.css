@@ -1,0 +1,16 @@
+.App {
+  padding: 20px;
+  background-color: #232323;
+  height: calc(100vh + 50px); 
+}
+div {
+  color: #fff;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
